@@ -28,7 +28,7 @@ jobs:
         run: |
           cd ~/scripts
           npm install
-      - name: '运行 【东东萌宠】'
+      - name: '运行 【金融养猪】'
         run: |
           cd ~/scripts
           node jd_pigPet.js
