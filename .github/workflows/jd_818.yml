@@ -6,7 +6,7 @@ name: jd_818
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 0,3,6,9,11,15,23 * * *'
+    - cron: '0 1,4,7,10,12,16,22 * * *'
   watch:
     types: started
   repository_dispatch:
@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone https://github.com/libinxwz/jd_scripts.git ~/scripts
+          git clone https://github.com/lxk0301/scripts.git ~/scripts
       - name: Use Node.js 10.x
         uses: actions/setup-node@v1
         with:
