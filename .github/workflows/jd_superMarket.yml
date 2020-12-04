@@ -28,7 +28,7 @@ jobs:
         run: |
           cd ~/scripts
           npm install
-      - name: '运行 【京小超】'
+      - name: '运行 【东东超市】'
         run: |
           cd ~/scripts
           node jd_superMarket.js
