@@ -8,8 +8,8 @@
 // 同一个京东账号的好友互助码用@符号隔开,不同京东账号之间用&符号或者换行隔开,下面给一个示例
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
 let FruitShareCodes = [
-  '17f6b08b50aa46e695057a8a13eb2fb0@36c883a467144d44a75504bcb5886280@82db135fc0da4f80ad4609015e1bcfda',//账号一的好友shareCode,不同好友中间用@符号隔开
-  '17f6b08b50aa46e695057a8a13eb2fb0@36c883a467144d44a75504bcb5886280@82db135fc0da4f80ad4609015e1bcfda',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '36c883a467144d44a75504bcb5886280@17f6b08b50aa46e695057a8a13eb2fb0@82db135fc0da4f80ad4609015e1bcfda@0c88a2955a2448deb8ae870591238721',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '36c883a467144d44a75504bcb5886280@17f6b08b50aa46e695057a8a13eb2fb0@82db135fc0da4f80ad4609015e1bcfda@0c88a2955a2448deb8ae870591238721',//账号一的好友shareCode,不同好友中间用@符号隔开
 '17f6b08b50aa46e695057a8a13eb2fb0@36c883a467144d44a75504bcb5886280@82db135fc0da4f80ad4609015e1bcfda',//账号一的好友shareCode,不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有水果互助码
